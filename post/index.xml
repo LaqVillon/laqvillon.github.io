@@ -9,11 +9,11 @@
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
     <atom:link href="https://laqvillon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Visualization</title>
+      <title>Visualization and exploratory data analysis (in portuguese)</title>
       <link>https://laqvillon.github.io/post/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2023 10:58:08 -0400</pubDate>
+      <pubDate>Mon, 09 Oct 2023 10:58:08 -0400</pubDate>
       <guid>https://laqvillon.github.io/post/chapter-1/</guid>
-      <description>Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job. Scraped over 1000 job descriptions from glassdoor using python and selenium Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.</description>
+      <description>Esta análise exploratria corresponde a uma dataset que respresenta uma amostra de 500 clientes de um banco. Os dados podem encontrados aqui, no github da professora Cibele Russo do ICMC/USP.&#xA;Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job. Scraped over 1000 job descriptions from glassdoor using python and selenium Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.</description>
     </item>
     <item>
       <title>Chapter III: Monsieur the Cardinal</title>
