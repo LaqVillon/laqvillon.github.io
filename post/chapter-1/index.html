@@ -43,7 +43,7 @@
 <meta itemprop="name" content="Visualization and exploratory data analysis (in portuguese)">
 <meta itemprop="description" content="Data science project"><meta itemprop="datePublished" content="2023-10-09T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2023-10-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="111">
+<meta itemprop="wordCount" content="245">
 <meta itemprop="keywords" content="scene," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Visualization and exploratory data analysis (in portuguese)"/>
 <meta name="twitter:description" content="Data science project"/>
 
@@ -174,15 +174,49 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Esta análise exploratria corresponde a uma dataset que respresenta uma amostra de 500 clientes de um banco. Os dados podem encontrados <a href="https://github.com/cibelerusso/Datasets/blob/main/amostra_banco_distrito.csv">aqui</a>, no github da professora Cibele Russo do ICMC/USP.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><!-- raw HTML omitted -->
+<p>Esta análise exploratria corresponde a uma dataset que respresenta uma amostra de um banco de 500 clientes do município de São Paulo. Os dados podem encontrados neste <a href="https://github.com/cibelerusso/Datasets/blob/main/amostra_banco_distrito.csv">link</a>. Os features são os seguintes:</p>
 <ul>
-<li>Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.</li>
-<li>Scraped over 1000 job descriptions from glassdoor using python and selenium</li>
-<li>Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark.</li>
-<li>Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
-Built a client facing API using flask</li>
+<li>Cliente: Identificador do cliente.</li>
+<li>Sexo: Feminino (F) ou Masculino (M)</li>
+<li>Idade: Idade do cliente (anos).</li>
+<li>Empresa: Pública, Privada ou Autônomo (Tipo da empresa em que trabalha)</li>
+<li>Salário: Salário declarado pelo cliente na abertura da conta, em reais.</li>
+<li>Saldo_cc: Saldo em conta corrente, em reais.</li>
+<li>Saldo_poupança: Saldo em poupança, em reais.</li>
+<li>Saldo_investimento: Saldo em investimentos, em reais.</li>
+<li>Devedor_cartao: Valor em atraso no cartão de crédito, em reais.</li>
+<li>Inadimplente: Se o cliente é considerado inadimplente atualmente (1) ou não (0), de acordo com critérios preestabelecidos.</li>
+<li>Distrito: Distrito de São Paulo em que mora o cliente.</li>
 </ul>
+<p>A seguir, comentamos os insights mais importantes.</p>
+<p>A primeira observação é que a maioria dos cliente trabalham ou atúam na área privada.</p>
 <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<figure><img src="https://laqvillon.github.io/images/pizza-frequencia-empresa.jpg"/><figcaption>
+            <h4>Frecuência dos trabalhadores por tipo de empressa</h4>
+        </figcaption>
+</figure>
+
+<p>Também observamos que, em média, os clientes homens ganham mais que as mulheres como autônomos ou no setor privado.
+Ainda, no setor privado destacamos a presença de alguns clientes homens que ganham acima de 12000 reais (outliers).
+Se realizamos a mesmaa análise por distrito, obervamos que as clientes mulheres ganham menos que os homens en todos os casos.
+Está observação pode indicar algumas campanhas específicas orientadas para cada sexo.</p>
+<figure><img src="https://laqvillon.github.io/images/salario-sexo-empresa.jpg"/><figcaption>
+            <h4>Frecuência dos trabalhadores por tipo de empressa</h4>
+        </figcaption>
+</figure>
+
+<figure><img src="https://laqvillon.github.io/images/salario-sexo-distrito.jpg"/><figcaption>
+            <h4>Frecuência dos trabalhadores por distrito</h4>
+        </figcaption>
+</figure>
+
+<figure><img src="https://laqvillon.github.io/images/distribuicao-idade-salario.jpg"/><figcaption>
+            <h4>Distribuição dos clientes por idade</h4>
+        </figcaption>
+</figure>
+
 <p><a href="">Link to github repository</a></p>
 <ul class="pa0">
   
