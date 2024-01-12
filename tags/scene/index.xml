@@ -13,7 +13,7 @@
       <link>https://laqvillon.github.io/post/chapter-1/</link>
       <pubDate>Mon, 09 Oct 2023 10:58:08 -0400</pubDate>
       <guid>https://laqvillon.github.io/post/chapter-1/</guid>
-      <description>Esta análise exploratria corresponde a uma dataset que respresenta uma amostra de um banco de 500 clientes do município de São Paulo. Os dados podem encontrados neste link. Os features são os seguintes:&#xA;Cliente: Identificador do cliente. Sexo: Feminino (F) ou Masculino (M) Idade: Idade do cliente (anos). Empresa: Pública, Privada ou Autônomo (Tipo da empresa em que trabalha) Salário: Salário declarado pelo cliente na abertura da conta, em reais.</description>
+      <description>Esta análise exploratória corresponde a uma dataset que representa uma amostra de um banco de 500 clientes do município de São Paulo. Os dados podem encontrados neste link. Os features são os seguintes:&#xA;Cliente: Identificador do cliente. Sexo: Feminino (F) ou Masculino (M) Idade: Idade do cliente (anos). Empresa: Pública, Privada ou Autônomo (Tipo da empresa em que trabalha) Salário: Salário declarado pelo cliente na abertura da conta, em reais.</description>
     </item>
   </channel>
 </rss>

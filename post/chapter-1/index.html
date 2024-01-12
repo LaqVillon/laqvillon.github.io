@@ -43,7 +43,7 @@
 <meta itemprop="name" content="Visualization and exploratory data analysis (in portuguese)">
 <meta itemprop="description" content="Data science project"><meta itemprop="datePublished" content="2023-10-09T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2023-10-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="245">
+<meta itemprop="wordCount" content="402">
 <meta itemprop="keywords" content="scene," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Visualization and exploratory data analysis (in portuguese)"/>
 <meta name="twitter:description" content="Data science project"/>
 
@@ -175,7 +175,8 @@
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><!-- raw HTML omitted -->
-<p>Esta análise exploratria corresponde a uma dataset que respresenta uma amostra de um banco de 500 clientes do município de São Paulo. Os dados podem encontrados neste <a href="https://github.com/cibelerusso/Datasets/blob/main/amostra_banco_distrito.csv">link</a>. Os features são os seguintes:</p>
+<p>Esta análise exploratória corresponde a uma dataset que representa uma amostra de um banco de 500 clientes do município de São Paulo.
+Os dados podem encontrados neste <a href="https://github.com/cibelerusso/Datasets/blob/main/amostra_banco_distrito.csv">link</a>. Os features são os seguintes:</p>
 <ul>
 <li>Cliente: Identificador do cliente.</li>
 <li>Sexo: Feminino (F) ou Masculino (M)</li>
@@ -190,34 +191,51 @@
 <li>Distrito: Distrito de São Paulo em que mora o cliente.</li>
 </ul>
 <p>A seguir, comentamos os insights mais importantes.</p>
-<p>A primeira observação é que a maioria dos cliente trabalham ou atúam na área privada.</p>
+<p>A primeira observação é que a maioria dos cliente trabalham ou atuam na área privada.</p>
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <figure><img src="https://laqvillon.github.io/images/pizza-frequencia-empresa.jpg"/><figcaption>
-            <h4>Frecuência dos trabalhadores por tipo de empressa</h4>
+            <h4>Frequência dos clientes por tipo de empresa em que trabalham</h4>
         </figcaption>
 </figure>
 
 <p>Também observamos que, em média, os clientes homens ganham mais que as mulheres como autônomos ou no setor privado.
 Ainda, no setor privado destacamos a presença de alguns clientes homens que ganham acima de 12000 reais (outliers).
-Se realizamos a mesmaa análise por distrito, obervamos que as clientes mulheres ganham menos que os homens en todos os casos.
-Está observação pode indicar algumas campanhas específicas orientadas para cada sexo.</p>
+Se realizamos a mesma análise por distrito, observamos que as clientes mulheres ganham menos que os homens en todos os casos.
+Esta observação pode indicar algumas campanhas específicas orientadas por sexo.</p>
 <figure><img src="https://laqvillon.github.io/images/salario-sexo-empresa.jpg"/><figcaption>
-            <h4>Frecuência dos trabalhadores por tipo de empressa</h4>
+            <h4>Salário dos clientes por tipo de empresa</h4>
         </figcaption>
 </figure>
 
 <figure><img src="https://laqvillon.github.io/images/salario-sexo-distrito.jpg"/><figcaption>
-            <h4>Frecuência dos trabalhadores por distrito</h4>
+            <h4>Salário dos clientes por distrito e sexo</h4>
         </figcaption>
 </figure>
 
-<figure><img src="https://laqvillon.github.io/images/distribuicao-idade-salario.jpg"/><figcaption>
-            <h4>Distribuição dos clientes por idade</h4>
+<p>Considerando a idade dos clientes, a diferença no salario por empresa é ainda mais evidente. Os clientes com mais de 35 anos que trabalham
+em empresa privada tendem a ganhar mais quando comparado com os outros clientes da mesma idade.</p>
+<figure><img src="https://laqvillon.github.io/images/distribuicao-idade-salario.png"/><figcaption>
+            <h4>Distribuição dos clientes por idade e empresa</h4>
         </figcaption>
 </figure>
 
-<p><a href="">Link to github repository</a></p>
+<p>Como comentado inicialmente, as clientes mulheres ganham menos que os homens na maioria dos casos. A correlação entre idade e salário considerando o sexo
+mostra que essa diferença é ainda mais expressiva: os clientes homens ganham tendem a ganhar salários mais altos com a idade.</p>
+<figure><img src="https://laqvillon.github.io/images/associacao-salario-idade-empresa-sexo.jpg"/><figcaption>
+            <h4>Associação entre salário e idade por empresa e sexo dos clientes</h4>
+        </figcaption>
+</figure>
+
+<p>Finalmente, observamos uma correlação positiva entre salario, saldo poupança (Saldo_poupança) e saldo da conta corrente (Saldo_cc).
+Porém a correlação dos features mencionados com o saldo em investimentos (Saldo_investimento) é fraca. Isto é um insight importante para o banco
+para tomada de decisões sobre de investimentos em ativos financeiros.</p>
+<figure><img src="https://laqvillon.github.io/images/associacao-variaveis-quantitativas.jpg"/><figcaption>
+            <h4>Associação de variáveis quantitativas financeiras</h4>
+        </figcaption>
+</figure>
+
+<p><a href="https://github.com/LaqVillon/analise-exploratoria-clientes">Link para o repositório no github</a></p>
 <ul class="pa0">
   
    <li class="list di">
