@@ -9,25 +9,18 @@
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
     <atom:link href="https://laqvillon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A Recommendation System Based on Cosine Similarity</title>
+      <link>https://laqvillon.github.io/post/chapter-2/</link>
+      <pubDate>Wed, 10 Jan 2024 11:00:59 -0400</pubDate>
+      <guid>https://laqvillon.github.io/post/chapter-2/</guid>
+      <description>Problema Este projeto pretende resolver um problema que é descrito a seguir. Uma start-up do ramo imobiliária tem como modelo de negocio a venda de quartos de apartamentos. A empresa tem um registro de 12000 proprietários de imóveis que estão interessados na compra dos quartos. O problema consiste em que há a possibilidade em que vários proprietários de perfis pessoais diferentes comprem quartos do mesmo apartamento. Isto poderia gerar conflito entre os proprietários e com a empresa por não realizar um estudo de compatibilidade entre os futuros vizinhos.</description>
+    </item>
+    <item>
       <title>Visualization and exploratory data analysis (in portuguese)</title>
       <link>https://laqvillon.github.io/post/chapter-1/</link>
       <pubDate>Mon, 09 Oct 2023 10:58:08 -0400</pubDate>
       <guid>https://laqvillon.github.io/post/chapter-1/</guid>
-      <description>Esta análise exploratória corresponde a uma dataset que representa uma amostra de um banco de 500 clientes do município de São Paulo. Os dados podem encontrados neste link. Os features são os seguintes:&#xA;Cliente: Identificador do cliente. Sexo: Feminino (F) ou Masculino (M) Idade: Idade do cliente (anos). Empresa: Pública, Privada ou Autônomo (Tipo da empresa em que trabalha) Salário: Salário declarado pelo cliente na abertura da conta, em reais.</description>
-    </item>
-    <item>
-      <title>Chapter III: Monsieur the Cardinal</title>
-      <link>https://laqvillon.github.io/post/chapter-3/</link>
-      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      <guid>https://laqvillon.github.io/post/chapter-3/</guid>
-      <description>Poor Gringoire! the din of all the great double petards of the Saint-Jean, the discharge of twenty arquebuses on supports, the detonation of that famous serpentine of the Tower of Billy, which, during the siege of Paris, on Sunday, the twenty-sixth of September, 1465, killed seven Burgundians at one blow, the explosion of all the powder stored at the gate of the Temple, would have rent his ears less rudely at that solemn and dramatic moment, than these few words, which fell from the lips of the usher, “His eminence, Monseigneur the Cardinal de Bourbon.</description>
-    </item>
-    <item>
-      <title>Chapter II: Pierre Gringoire</title>
-      <link>https://laqvillon.github.io/post/chapter-2/</link>
-      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
-      <guid>https://laqvillon.github.io/post/chapter-2/</guid>
-      <description>Nevertheless, as be harangued them, the satisfaction and admiration unanimously excited by his costume were dissipated by his words; and when he reached that untoward conclusion: “As soon as his illustrious eminence, the cardinal, arrives, we will begin,” his voice was drowned in a thunder of hooting.&#xA;“Begin instantly! The mystery! the mystery immediately!” shrieked the people. And above all the voices, that of Johannes de Molendino was audible, piercing the uproar like the fife’s derisive serenade: “Commence instantly!</description>
+      <description>Descoberta de Insights Esta análise exploratória corresponde a uma dataset que representa uma amostra de um banco de 500 clientes do município de São Paulo. Os dados podem encontrados neste link. Os features são os seguintes:&#xA;Cliente: Identificador do cliente. Sexo: Feminino (F) ou Masculino (M) Idade: Idade do cliente (anos). Empresa: Pública, Privada ou Autônomo (Tipo da empresa em que trabalha) Salário: Salário declarado pelo cliente na abertura da conta, em reais.</description>
     </item>
   </channel>
 </rss>
