@@ -13,21 +13,21 @@
       <link>https://laqvillon.github.io/post/chapter-2/</link>
       <pubDate>Wed, 10 Jan 2024 11:00:59 -0400</pubDate>
       <guid>https://laqvillon.github.io/post/chapter-2/</guid>
-      <description>Problema Este projeto pretende resolver um problema que é descrito a seguir. Uma start-up do ramo imobiliária tem como modelo de negocio a venda de quartos de apartamentos. A empresa tem um registro de 12000 proprietários de imóveis que estão interessados na compra dos quartos. O problema consiste em que há a possibilidade em que vários proprietários de perfis pessoais diferentes comprem quartos do mesmo apartamento. Isto poderia gerar conflito entre os proprietários e com a empresa por não realizar um estudo de compatibilidade entre os futuros vizinhos.</description>
+      <description>Problema Este projeto pretende resolver o problema descrito a seguir: Uma start-up do ramo imobiliário tem como modelo de negócio a venda de quartos de apartamentos. A empresa tem um registro de 12000 proprietários de imóveis que estão interessados na compra dos quartos. O problema reside na possibilidade de que vários compradores de perfis e gostos pessoais incompatíveis adquiram quartos do mesmo apartamento. Isto poderia gerar conflito entre os proprietários e com a própria empresa, por não realizar um estudo de compatibilidade entre os futuros vizinhos.</description>
     </item>
     <item>
-      <title>Visualization and exploratory data analysis (in portuguese)</title>
+      <title>Visualization and exploratory data analysis</title>
       <link>https://laqvillon.github.io/post/chapter-1/</link>
       <pubDate>Mon, 09 Oct 2023 10:58:08 -0400</pubDate>
       <guid>https://laqvillon.github.io/post/chapter-1/</guid>
-      <description>Descoberta de Insights Esta análise exploratória corresponde a uma dataset que representa uma amostra de um banco de 500 clientes do município de São Paulo. Os dados podem encontrados neste link. Os features são os seguintes:&#xA;Cliente: Identificador do cliente. Sexo: Feminino (F) ou Masculino (M) Idade: Idade do cliente (anos). Empresa: Pública, Privada ou Autônomo (Tipo da empresa em que trabalha) Salário: Salário declarado pelo cliente na abertura da conta, em reais.</description>
+      <description>Descoberta de Insights Esta análise exploratória corresponde a uma dataset que representa uma amostra (fictícia) de um banco de 500 clientes do município de São Paulo. Os dados podem encontrados neste link. Os features são os seguintes:&#xA;Cliente: Identificador do cliente. Sexo: Feminino (F) ou Masculino (M) Idade: Idade do cliente (anos). Empresa: Pública, Privada ou Autônomo (Tipo da empresa em que trabalha) Salário: Salário declarado pelo cliente na abertura da conta, em reais.</description>
     </item>
     <item>
       <title>About</title>
       <link>https://laqvillon.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://laqvillon.github.io/about/</guid>
-      <description>I am a Data Scientist with experience in supervised neural network models for classification tasks using Python and C/C++. I have a background in physics and computer engineering. I am appasionate of data, science and technology.</description>
+      <description>I&amp;rsquo;m Luis Villon, a passionate and results-driven Data Scientist with a keen interest in transforming raw data into actionable insights. My journey in science and engineering has equipped me with a unique blend of technical skills, analytical mindset, and a commitment to leveraging data for meaningful impact.&#xA;Background and Education I hold an M.Sc. in Systems and Computer Engineering from COPPE/UFRJ, Brazil, where I developed a solid foundation in artificial intelligence and computer architecture.</description>
     </item>
     <item>
       <title>Contact</title>
