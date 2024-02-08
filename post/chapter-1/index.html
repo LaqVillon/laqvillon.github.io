@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Visualization and exploratory data analysis | Luis Villon</title>
+    <title>A Recommendation System Based on Cosine Similarity | Luis Villon</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="(in portuguese)">
     <meta name="generator" content="Hugo 0.121.2">
@@ -33,18 +33,18 @@
       <link rel="canonical" href="https://laqvillon.github.io/post/chapter-1/">
     
 
-    <meta property="og:title" content="Visualization and exploratory data analysis" />
+    <meta property="og:title" content="A Recommendation System Based on Cosine Similarity" />
 <meta property="og:description" content="(in portuguese)" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://laqvillon.github.io/post/chapter-1/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2023-10-09T10:58:08-04:00" />
-<meta property="article:modified_time" content="2023-10-09T10:58:08-04:00" />
+<meta property="article:published_time" content="2024-01-10T11:00:59-04:00" />
+<meta property="article:modified_time" content="2024-01-10T11:00:59-04:00" />
 
-<meta itemprop="name" content="Visualization and exploratory data analysis">
-<meta itemprop="description" content="(in portuguese)"><meta itemprop="datePublished" content="2023-10-09T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2023-10-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="416">
-<meta itemprop="keywords" content="scene," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Visualization and exploratory data analysis"/>
+<meta itemprop="name" content="A Recommendation System Based on Cosine Similarity">
+<meta itemprop="description" content="(in portuguese)"><meta itemprop="datePublished" content="2024-01-10T11:00:59-04:00" />
+<meta itemprop="dateModified" content="2024-01-10T11:00:59-04:00" />
+<meta itemprop="wordCount" content="410">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="A Recommendation System Based on Cosine Similarity"/>
 <meta name="twitter:description" content="(in portuguese)"/>
 
 	
@@ -57,7 +57,7 @@
   
 
   
-  <header class="cover bg-top" style="background-image: url('https://laqvillon.github.io/images/Data-Science-Wallpaper.jpeg');">
+  <header class="cover bg-top" style="background-image: url('https://laqvillon.github.io/images/plot.png');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -116,7 +116,7 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Visualization and exploratory data analysis</div>
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">A Recommendation System Based on Cosine Similarity</div>
           
             <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
               (in portuguese)
@@ -152,7 +152,7 @@
   <div id="sharing" class="mt3 ananke-socials">
     
       
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://laqvillon.github.io/post/chapter-1/&amp;title=Visualization%20and%20exploratory%20data%20analysis" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://laqvillon.github.io/post/chapter-1/&amp;title=A%20Recommendation%20System%20Based%20on%20Cosine%20Similarity" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
         
         <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
@@ -164,84 +164,52 @@
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Visualization and exploratory data analysis</h1>
+      <h1 class="f1 athelas mt3 mb1">A Recommendation System Based on Cosine Similarity</h1>
       
       
       
-      <time class="f6 mv4 dib tracked" datetime="2023-10-09T10:58:08-04:00">October 9, 2023</time>
+      <time class="f6 mv4 dib tracked" datetime="2024-01-10T11:00:59-04:00">January 10, 2024</time>
       
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><!-- raw HTML omitted -->
-<h3 id="descoberta-de-insights"><strong>Descoberta de Insights</strong></h3>
-<p>Esta análise exploratória corresponde a uma dataset que representa uma amostra (fictícia) de um banco de 500 clientes do município de São Paulo.
-Os dados podem encontrados neste <a href="https://github.com/cibelerusso/Datasets/blob/main/amostra_banco_distrito.csv">link</a>. Os features são os seguintes:</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h3 id="problema"><strong>Problema</strong></h3>
+<p>Este projeto pretende resolver o problema descrito a seguir: Uma start-up do ramo imobiliário tem como modelo de negócio a
+venda de quartos de apartamentos. A empresa tem um registro de 12000 proprietários de imóveis que estão interessados na compra dos quartos.
+O problema reside na possibilidade de que vários compradores de perfis e gostos pessoais incompatíveis adquiram quartos do mesmo apartamento.
+Isto poderia gerar conflito entre os proprietários e com a própria empresa, por não realizar um estudo de compatibilidade entre os futuros vizinhos.</p>
+<h3 id="solução"><strong>Solução</strong></h3>
+<p>A solução que este projeto propõe consiste em um sistema de recomendação que quantifique, por técnicas de machine learning ou de análise de dados,
+o nível de compatibilidade entre os possíveis proprietários do mesmo apartamento.</p>
+<p>Para isto é necessário que os 12000 proprietários compartilhem algumas informações sobre suas preferências pessoais e de estilo de vida.
+Eles devem preencher um questionário com 17 perguntas. Algumas delas são:</p>
 <ul>
-<li>Cliente: Identificador do cliente.</li>
-<li>Sexo: Feminino (F) ou Masculino (M)</li>
-<li>Idade: Idade do cliente (anos).</li>
-<li>Empresa: Pública, Privada ou Autônomo (Tipo da empresa em que trabalha)</li>
-<li>Salário: Salário declarado pelo cliente na abertura da conta, em reais.</li>
-<li>Saldo_cc: Saldo em conta corrente, em reais.</li>
-<li>Saldo_poupança: Saldo em poupança, em reais.</li>
-<li>Saldo_investimento: Saldo em investimentos, em reais.</li>
-<li>Devedor_cartao: Valor em atraso no cartão de crédito, em reais.</li>
-<li>Inadimplente: Se o cliente é considerado inadimplente atualmente (1) ou não (0), de acordo com critérios preestabelecidos.</li>
-<li>Distrito: Distrito de São Paulo em que mora o cliente.</li>
+<li>Qual é o seu horário de trabalho típico?</li>
+<li>Você acorda cedo ou é uma pessoa noturna?</li>
+<li>Você prefere um lugar animado ou tranquilo?</li>
+<li>Você prefere viver com animais de estimação?</li>
+<li>Você recebe visitantes com frequência?</li>
 </ul>
-<p>A seguir, comentamos os insights mais importantes.</p>
-<p>A primeira observação é que a maioria dos cliente trabalham ou atuam na área privada.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<figure><img src="https://laqvillon.github.io/images/pizza-frequencia-empresa.jpg"/><figcaption>
-            <h4>Frequência dos clientes por tipo de empresa em que trabalham</h4>
+<p>Com as respostas do questionário é possível criar un banco de dados a partir do qual será calculado a compatibilidade dos proprietários. Para tanto, nós
+utilizamos a similaridade por cosseno. Visando utilizar essa técnica, consideramos como vetores a informação completa de um proprietário do banco de dados.
+Como técnica de pré-processamento utilizamos <em>one-hot encoding</em> pois todos os dados são categóricos.</p>
+<p>Utilizamos o aplicativo &ldquo;streamlit&rdquo; e a linguagem python na visualização dos resultados para auxiliar aos participantes na toma de decisões na empresa.
+Por meio desse app, criamos um formulário que solicita como input os IDs dos proprietários de um apartamento dado. E também é requerido a quantidade de possíveis vizinhos que poderiam compartilhar similaridade com os outros proprietários. Por exemplo, na Figura 1 abaixo mostramos o caso em que estamos interessados em conhecer a similaridade de 12 vizinhos com os proprietários identificados, respectivamente, com os IDs 10, 678 e 456.</p>
+<figure><img src="https://laqvillon.github.io/images/formulario.png"/><figcaption>
+            <h4>Figura 1: Formulário do sistema</h4>
         </figcaption>
 </figure>
 
-<p>Também observamos que, em média, os clientes do sexo masculino ganham mais que as mulheres como autônomos ou no setor privado.
-Ainda, no setor privado destacamos a presença de alguns clientes homens que ganham acima de 12000 reais (outliers).
-Se realizamos a mesma análise por distrito, observamos que as clientes mulheres ganham menos que os homens en todos os casos.
-Esta observação é útil pois pode indicar ao banco algumas campanhas específicas orientadas por sexo dos clientes.</p>
-<figure><img src="https://laqvillon.github.io/images/salario-sexo-empresa.jpg"/><figcaption>
-            <h4>Salário dos clientes por tipo de empresa</h4>
+<p>O resultado é exibido no gráfico de barras da Figura 2. O eixo &lsquo;X&rsquo; mostra os 12 proprietários (ID) com mais compatibilidade ou similaridade com os 3 inicialmente descritos no formulário.
+Em negrito destacamos o grau de similaridade em porcentagem. Observamos que o proprietário com o ID 2108 é o mais compatível.</p>
+<figure><img src="https://laqvillon.github.io/images/plot.png"/><figcaption>
+            <h4>Figura 2: Os 12 proprietários com mais similaridade</h4>
         </figcaption>
 </figure>
 
-<figure><img src="https://laqvillon.github.io/images/salario-sexo-distrito.jpg"/><figcaption>
-            <h4>Salário dos clientes por distrito e sexo</h4>
-        </figcaption>
-</figure>
-
-<p>A diferença salarial por empresa é ainda mais evidente considerando a idade dos clientes. Os clientes com mais de 35 anos que trabalham
-em empresa privada tendem a ganhar mais em comparação com outros com os outros clientes da mesma idade.</p>
-<figure><img src="https://laqvillon.github.io/images/distribuicao-idade-salario.png"/><figcaption>
-            <h4>Distribuição dos clientes por idade e empresa</h4>
-        </figcaption>
-</figure>
-
-<p>Conforme mencionado inicialmente, as clientes do sexo feminino geralmente ganham menos que os homens. A correlação entre idade e salário considerando o sexo
-mostra que essa diferença é ainda mais significativa: os clientes do sexo masculino tendem a ganhar salários mais elevados com a idade.</p>
-<figure><img src="https://laqvillon.github.io/images/associacao-salario-idade-empresa-sexo.jpg"/><figcaption>
-            <h4>Associação entre salário e idade por empresa e sexo dos clientes</h4>
-        </figcaption>
-</figure>
-
-<p>Finalmente, observamos uma correlação positiva entre salario, saldo poupança (Saldo_poupança) e saldo da conta corrente (Saldo_cc).
-Porém a correlação dos features mencionados com o saldo em investimentos (Saldo_investimento) é fraca. Isto é um insight importante para o banco
-para na de decisões sobre investimentos em ativos financeiros.</p>
-<figure><img src="https://laqvillon.github.io/images/associacao-variaveis-quantitativas.jpg"/><figcaption>
-            <h4>Associação de variáveis quantitativas financeiras</h4>
-        </figcaption>
-</figure>
-
-<p><a href="https://github.com/LaqVillon/analise-exploratoria-clientes">Link para o repositório completo no github</a></p>
+<p><a href="https://github.com/LaqVillon/sistema-recomendacao-similaridade">Link para o repositório completo no github</a></p>
 <ul class="pa0">
-  
-   <li class="list di">
-     <a href="https://laqvillon.github.io/tags/scene/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">scene</a>
-   </li>
   
 </ul>
 <div class="mt6 instapaper_ignoref">
