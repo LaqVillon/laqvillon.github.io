@@ -13,7 +13,7 @@
       <link>https://laqvillon.github.io/post/chapter-2/</link>
       <pubDate>Wed, 10 Jan 2024 11:00:59 -0400</pubDate>
       <guid>https://laqvillon.github.io/post/chapter-2/</guid>
-      <description>Problema Este projeto pretende resolver o problema descrito a seguir: Uma start-up do ramo imobiliário tem como modelo de negócio a venda de quartos de apartamentos. A empresa tem um registro de 12000 proprietários de imóveis que estão interessados na compra dos quartos. O problema reside na possibilidade de que vários compradores de perfis e gostos pessoais incompatíveis adquiram quartos do mesmo apartamento. Isto poderia gerar conflito entre os proprietários e com a própria empresa, por não realizar um estudo de compatibilidade entre os futuros vizinhos.</description>
+      <description>Problema Este projeto pretende resolver o problema descrito a seguir: Uma start-up do ramo imobiliário tem como modelo de negócio a venda de quartos de apartamentos. A empresa tem um registro de 5000 proprietários de imóveis que estão interessados na compra dos quartos. O problema reside na possibilidade de que vários compradores de perfis e gostos pessoais incompatíveis adquiram quartos do mesmo apartamento. Isto poderia gerar conflito entre os proprietários e com a própria empresa, por não realizar um estudo de compatibilidade entre os futuros vizinhos.</description>
     </item>
     <item>
       <title>Visualization and exploratory data analysis</title>
